@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Landing from './components/Landing'
-import Flower from './components/flower'
+import Flower from './components/Flower'
 import About from './components/About'
 import LocomotiveScroll from 'locomotive-scroll';
 
