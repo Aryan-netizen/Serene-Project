@@ -4,7 +4,8 @@
     font-family: Soligant;
     src: url(./fonts/Soligant.ttf);
 }
-
-*{
-    font-family: Soligant;
+@font-face {
+    font-family: Monserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
+
