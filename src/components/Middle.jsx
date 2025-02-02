@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Flower() {
+function Middle() {
   return (
     <div className='w-full h-[80vh] relative bg-gray-200'>
         <h1 data-scroll data-scroll-speed=".2" className='w-[35vh] absolute text-sm top-[25vh] left-[3vh]'>Serene APP® SUPPORTS MENTAL
@@ -22,4 +22,4 @@ MENTAL HEALTH. <br />
   )
 }
 
-export default Flower
+export default Middle

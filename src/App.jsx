@@ -1,9 +1,10 @@
 import React from 'react'
 import Nav from './components/Nav'
 import Landing from './components/Landing'
-import Flower from './components/Flower'
+
 import About from './components/About'
 import LocomotiveScroll from 'locomotive-scroll';
+import Middle from './components/Middle';
 
 
 
@@ -14,7 +15,7 @@ function App() {
     <div className='w-full font-[Montserrat] text-black '>
       <Nav/>
       <Landing/>
-      <Flower/>
+      <Middle/>
       <About/>
     </div>
   )
