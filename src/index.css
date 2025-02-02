@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 @font-face {
-    font-family: Imported;
+    font-family: Soligant;
     src: url(./fonts/Soligant.ttf);
+}
+
+*{
+    font-family: Soligant;
 }
