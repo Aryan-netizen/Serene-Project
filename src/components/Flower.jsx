@@ -17,7 +17,7 @@ NECESSARY FORLONG-TERM <br />
 IMPROVEMENT AND MAINTENANCE OF <br />
 MENTAL HEALTH. <br />
         </h1>
-        <img data-scroll data-scroll-speed=".8" className='absolute left-[30vh] w-[70vw] -top-[10vh] -translate-x-0.5 -translate-y-0.5' src="../flowe.png" alt="" />
+        <img data-scroll data-scroll-speed=".8" className='absolute left-[30vh] w-[70vw] -top-[10vh] -translate-x-0.5 -translate-y-0.5' src="./Flowe.png" alt="" />
     </div>
   )
 }
