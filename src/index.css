@@ -9,3 +9,55 @@
     src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
 
+/* Marquee Container */
+.marquee-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px 0;
+  }
+  
+  /* General Marquee Styles */
+  .marquee {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 10px 0;
+    border-radius: 5px;
+    mask-image: linear-gradient(to right, transparent, #000 20%, #000 80%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, #000 20%, #000 80%, transparent);
+  }
+  
+  /* Moving Content */
+  .marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee-scroll 20s linear infinite;
+  }
+  
+  .marquee-content span {
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Different Speed for Second Marquee */
+  .marquee2 .marquee-content {
+    animation: marquee-scroll 25s linear infinite;
+  }
+  
+  /* Keyframes for Marquee Animation */
+  @keyframes marquee-scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-30%);
+    }
+  }
+  

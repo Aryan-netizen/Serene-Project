@@ -12,7 +12,7 @@ function App() {
   // Soligant
   const locomotiveScroll = new LocomotiveScroll();
   return (
-    <div className='w-full font-[Montserrat] text-black '>
+    <div className='w-full font-[Montserrat] text-black overflow-hidden'>
       <Nav/>
       <Landing/>
       <Middle/>
