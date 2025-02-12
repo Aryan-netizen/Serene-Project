@@ -28,8 +28,8 @@ function Nav() {
       <div className="logo">
         <img className="h-[6vh] sm:h-[8vh]" src={full} alt="" />
       </div>
-      <FaBars className="text-white text-2xl flex sm:hidden"/>
-      <div className="links gap-6 capitalize hidden sm:flex">
+      <FaBars className="text-white text-2xl flex md:hidden"/>
+      <div className="links gap-6 capitalize hidden md:flex">
         {["About", "Term & Conditions", "Contact", "Help"].map((item, index) => {
           return (
             <a href="#" className="font-bold text-xl " key={index}>

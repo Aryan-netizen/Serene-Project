@@ -4,7 +4,7 @@ import { div } from "motion/react-client";
 
 function Middle() {
   return (
-    <div className="w-full h-screen bg-gray-200">
+    <div className="w-full h-fit bg-gray-200">
       <div className="marquee-container">
         {/* First Marquee */}
         <div className="marquee">
