@@ -6,6 +6,9 @@ import About from './components/About'
 import LocomotiveScroll from 'locomotive-scroll';
 import Middle from './components/Middle';
 import Product from './components/Product';
+import AboutUs from './components/AboutUs';
+import HelpPage from './components/Help';
+import TermsAndConditions from './components/Term';
 
 
 
@@ -14,11 +17,15 @@ function App() {
   const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full font-[Montserrat] text-black overflow-hidden'>
-      <Nav/>
+      {/* <Nav/> */}
       <Landing/>
       <Middle/>
       <About/>
       <Product/>
+      <TermsAndConditions/>
+      <AboutUs/>
+      <HelpPage/>
+      {/* <AboutUs/> */}
     </div>
   )
 }

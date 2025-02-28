@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import full from "../images/full.png";
+import logo from "../images/logo.png";
 import { FaBars } from "react-icons/fa6";
 
 function Nav() {
@@ -23,16 +23,16 @@ function Nav() {
     <div
       className={`${
         isVisible ? "translate-y-0" : "-translate-y-full"
-      } transition-transform duration-700 fixed z-[999] w-full sm:px-20 px-10 py-4 text-white flex items-center justify-between text-sm font-light bg-[#040642]`}
+      } transition-transform duration-700 fixed z-[999] w-full sm:px-20 px-10 py-4 text-black flex items-center justify-between text-sm font-light bg-white`}
     >
       <div className="logo">
-        <img className="h-[6vh] sm:h-[8vh]" src={full} alt="" />
+        <img className="h-[6vh] sm:h-[8vh]" src={logo} alt="" />
       </div>
-      <FaBars className="text-white text-2xl flex md:hidden"/>
+      <FaBars className="text-black text-2xl flex md:hidden"/>
       <div className="links gap-6 capitalize hidden md:flex">
         {["About", "Term & Conditions", "Contact", "Help"].map((item, index) => {
           return (
-            <a href="#" className="font-bold text-xl " key={index}>
+            <a href="#" className="font-bold text-xl text-black " key={index}>
               {item}
             </a>
           );
